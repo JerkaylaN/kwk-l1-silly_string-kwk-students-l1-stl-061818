@@ -47,6 +47,6 @@ puts string.gsub(/A/, '0').gsub(/a/, 'o')
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub# Add your gsub chain here
+sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/A/, '0').gsub(/a/, 'o')# Add your gsub chain here
 
 puts proper_sentence
