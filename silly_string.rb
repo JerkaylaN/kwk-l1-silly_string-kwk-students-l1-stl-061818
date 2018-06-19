@@ -43,7 +43,7 @@ puts proper_sentence. capitalize
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
-puts string.gsub(/A/, '0').gsub(/a/, 'o')
+puts  = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/A/, '0').gsub(/a/, 'o')
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
